@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# Hey, I'm Mohamed 👋
+# Hey, I'm Mohamed Elgheith 👋
 
 ### Software Engineer | Backend & DevOps
 
