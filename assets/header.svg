@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="310" viewBox="0 0 1000 310" role="img" aria-labelledby="title desc">
+  <title id="title">Mohamed Elgheith — Backend, DevOps, and Applied AI</title>
+  <desc id="desc">A navy and cyan animated banner with a typing introduction and a service architecture illustration.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1728"/><stop offset="1" stop-color="#101e32"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#0891b2" stop-opacity=".18"/><stop offset="1" stop-color="#0891b2" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#b5d2ee" stroke-opacity=".035"/></pattern>
+    <clipPath id="bounds"><rect width="1000" height="310" rx="18"/></clipPath>
+    <clipPath id="typing1"><rect x="48" y="185" height="30" width="0"><animate attributeName="width" values="0;425;425;0;0" keyTimes="0;.17;.27;.33;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="typing2"><rect x="48" y="185" height="30" width="0"><animate attributeName="width" values="0;425;425;0;0" keyTimes="0;.17;.27;.33;1" begin="6s" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="typing3"><rect x="48" y="185" height="30" width="0"><animate attributeName="width" values="0;425;425;0;0" keyTimes="0;.17;.27;.33;1" begin="12s" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1000" height="310" fill="url(#bg)"/>
+    <rect width="1000" height="310" fill="url(#grid)"/>
+    <ellipse cx="800" cy="140" rx="340" ry="260" fill="url(#glow)"/>
+    <rect x="48" y="39" width="32" height="3" rx="1.5" fill="url(#accent)"/>
+    <text x="48" y="72" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2.3" fill="#94a3b8">SOFTWARE ENGINEERING / MONASTIR, TN</text>
+    <text x="46" y="126" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="700" letter-spacing="-1.3" fill="#f1f5f9">Mohamed Elgheith</text>
+    <text x="48" y="163" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#cbd5e1">Backend · DevOps · Applied AI</text>
+    <g font-family="monospace" font-size="15" fill="#67e8f9">
+      <text x="48" y="206" clip-path="url(#typing1)">&gt; Building APIs with Go &amp; Spring Boot.</text>
+      <text x="48" y="206" clip-path="url(#typing2)">&gt; Containers, pipelines, and delivery.</text>
+      <text x="48" y="206" clip-path="url(#typing3)">&gt; Semantic search, RAG, and Arabic NLP.</text>
+    </g>
+    <circle cx="54" cy="244" r="4" fill="#2dd4bf"><animate attributeName="opacity" values="1;.35;1" dur="3s" repeatCount="indefinite"/></circle>
+    <text x="68" y="249" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#94a3b8">OPEN TO PFE INTERNSHIPS · FEBRUARY 2027</text>
+    <g fill="none" stroke="#25506b" stroke-width="1.5"><path d="M637 149H719"/><path d="M817 149H904"/><path d="M768 174V226H904"/></g>
+    <g fill="#67e8f9">
+      <circle r="3"><animateMotion path="M637 149H719" dur="2.8s" repeatCount="indefinite"/></circle>
+      <circle r="3"><animateMotion path="M817 149H904" dur="2.8s" begin="1s" repeatCount="indefinite"/></circle>
+      <circle r="3"><animateMotion path="M768 174V226H904" dur="3.8s" repeatCount="indefinite"/></circle>
+    </g>
+    <g font-family="monospace" text-anchor="middle">
+      <circle cx="615" cy="149" r="23" fill="#122b3b" stroke="#24516b"/>
+      <text x="615" y="154" fill="#94d8ee" font-size="15">&lt;/&gt;</text>
+      <rect x="719" y="124" width="98" height="50" rx="10" fill="#103041" stroke="#38bdf8" stroke-opacity=".7"/>
+      <text x="768" y="155" fill="#e0f2fe" font-size="17">API</text>
+      <circle cx="927" cy="149" r="23" fill="#122b3b" stroke="#24516b"/>
+      <text x="927" y="154" fill="#94d8ee" font-size="13">DB</text>
+      <rect x="904" y="207" width="46" height="38" rx="9" fill="#122b3b" stroke="#24516b"/>
+      <text x="927" y="231" fill="#94d8ee" font-size="13">AI</text>
+      <text x="768" y="99" fill="#62829c" font-size="11" letter-spacing="2">BUILD. CONNECT. SHIP.</text>
+    </g>
+    <path d="M0 286Q250 260 500 286T1000 286V310H0Z" fill="#2dd4bf" opacity=".035"><animate attributeName="d" values="M0 286Q250 260 500 286T1000 286V310H0Z;M0 286Q250 308 500 286T1000 286V310H0Z;M0 286Q250 260 500 286T1000 286V310H0Z" dur="9s" repeatCount="indefinite"/></path>
+  </g>
+  <rect x=".5" y=".5" width="999" height="309" rx="18" fill="none" stroke="#294158" stroke-opacity=".6"/>
+</svg>
